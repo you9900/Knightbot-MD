@@ -1,7 +1,8 @@
+
 {
-  "name": "knightbot",
+  "name": "kakuja-md",
   "version": "1.0.0",
-  "description": "WhatsApp Bot",
+  "description": "☠️ KAKUJA MD - The Ghoul Awakens 🩸 | Tokyo Ghoul Edition",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,12 +14,16 @@
     "install:panel": "npm install --legacy-peer-deps",
     "install:force": "npm install --force",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID knightbot"
+    "docker:build": "docker build -t kakuja-md ."
   },
   "keywords": [
-    "whatsapp-bot"
+    "whatsapp-bot",
+    "kakuja-md",
+    "tokyo-ghoul",
+    "anime",
+    "whatsapp-automation"
   ],
-  "author": "",
+  "author": "Rony",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -42,7 +47,7 @@
     "jimp": "^1.6.0",
     "jsdom": "^22.1.0",
     "libphonenumber-js": "^1.11.18",
-    "libsignal": "^2.0.1",
+    "libsignal": "^2.0.0",
     "link-preview-js": "^3.0.5",
     "moment-timezone": "^0.5.43",
     "mumaker": "^2.0.0",
@@ -50,7 +55,6 @@
     "node-fetch": "^2.7.0",
     "node-id3": "^0.2.3",
     "node-webpmux": "^3.1.0",
-    "node-youtube-music": "^0.8.3",
     "performance-now": "^2.1.0",
     "phin": "^3.7.1",
     "pino": "^8.21.0",
@@ -60,7 +64,6 @@
     "request": "^2.88.2",
     "ruhend-scraper": "^8.3.0",
     "safe-stable-stringify": "^2.5.0",
-    "set-cookie": "^0.0.4",
     "sharp": "^0.32.6",
     "tough-cookie": "^5.0.0",
     "translate-google-api": "^1.0.4",
